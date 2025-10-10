@@ -9,8 +9,10 @@ module binary_to_gray(
 
   always @(*) begin 
     for(i = 3; 0 < i; i = i - 1)
-        gray[0]
-
+        if(gray[i] & gray [i-1]) begin
+            gray[i-1] = !gray[i-1];
+        end else begin
+        end 
   end
 
 endmodule
