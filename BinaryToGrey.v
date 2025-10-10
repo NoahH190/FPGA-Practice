@@ -7,4 +7,10 @@ module binary_to_gray(
   assign gray[0] = bin[1] ^ bin[0];
   assign gray[3:1] = bin[3:1];
 
+  always @(*) begin 
+    for(i = 3; 0 < i; i = i - 1)
+        gray[0]
+
+  end
+
 endmodule
