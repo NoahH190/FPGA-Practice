@@ -13,7 +13,7 @@ module clock_div10(
       i <= 0;
     end
     else begin 
-      if (20 <= i) begin
+      if (19 <= i) begin
         clk_out <= 0;
         i <= 0;
       end
