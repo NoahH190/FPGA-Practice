@@ -19,6 +19,4 @@ module clock_div2(
         clk_out <= 0;      
       i <= i + 1;
     end 
-    
-
 endmodule
